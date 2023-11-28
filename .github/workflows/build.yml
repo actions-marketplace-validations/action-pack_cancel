@@ -28,7 +28,7 @@ jobs:
         echo "previousTag=$name" >> $GITHUB_ENV
     - 
       name: 'Get Previous tag'
-      id: previoustag
+      id: previoustagz
       uses: "WyriHaximus/github-action-get-previous-tag@v1"        
     -
       name: Generate changelog
