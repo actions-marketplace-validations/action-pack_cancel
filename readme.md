@@ -20,4 +20,4 @@ permissions:
         uses: action-pack/cancel-action@v1
 ```
 
-In combination with the ```if``` statement, this allows you to cancel the build conditionally.
+In combination with the ```if``` statement, this allows you to cancel the workflow conditionally.
