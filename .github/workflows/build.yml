@@ -26,10 +26,6 @@ jobs:
         name=$(git --no-pager tag --sort=creatordate --merged ${{ github.ref_name }} | tail -1)
         echo "previousTag: $name"
         echo "previousTag=$name" >> $GITHUB_ENV
-    - 
-      name: 'Get Previous tag'
-      id: previoustagz
-      uses: "WyriHaximus/github-action-get-previous-tag@v1"        
     -
       name: Generate changelog
       id: changelog
